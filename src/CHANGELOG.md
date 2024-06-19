@@ -1,5 +1,23 @@
 # viem
 
+## 2.16.0
+
+### Minor Changes
+
+- [#2424](https://github.com/wevm/viem/pull/2424) [`4b92979`](https://github.com/wevm/viem/commit/4b9297901e925e3e469822d8fe722bbcefb376ed) Thanks [@jxom](https://github.com/jxom)! - Stabilized ERC-6492 utilities:
+
+  - `isErc6492Signature`
+  - `parseErc6492Signature`
+  - `serializeErc6492Signature`
+
+  These utilities are no longer experimental, and can be imported from the `viem` entrypoint.
+
+### Patch Changes
+
+- [#2413](https://github.com/wevm/viem/pull/2413) [`99ed745`](https://github.com/wevm/viem/commit/99ed745ba28d912cdad86d6a1718968c8da4c7c0) Thanks [@jxom](https://github.com/jxom)! - **Experimental:** Added [Solady flavoured ERC-1271](https://github.com/Vectorized/solady/blob/678c9163550810b08f0ffb09624c9f7532392303/src/accounts/ERC1271.sol) `signMessage` & `signTypedData` for Smart Accounts that implement (or conform to) [Solady's `ERC1271.sol`](https://github.com/Vectorized/solady/blob/678c9163550810b08f0ffb09624c9f7532392303/src/accounts/ERC1271.sol#L110-L180).
+
+- [#2426](https://github.com/wevm/viem/pull/2426) [`01086ad`](https://github.com/wevm/viem/commit/01086ad924f2d15f076f1a27434df1d88e9d3323) Thanks [@EvanYan1024](https://github.com/EvanYan1024)! - Added multicall3 to zetachain mainnet and testnet
+
 ## 2.15.1
 
 ### Patch Changes
